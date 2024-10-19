@@ -17,7 +17,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -43,7 +43,7 @@ afterEvaluate {
 
                 groupId = 'com.github.syukronhardianto'
                 artifactId = 'cropper'
-                version = '1.0.2'
+                version = '1.0.3'
             }
         }
     }
