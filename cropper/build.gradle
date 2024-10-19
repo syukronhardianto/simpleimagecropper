@@ -42,8 +42,8 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.syukronhardianto'
-                artifactId = 'simple-image-cropper'
-                version = '1.0.0'
+                artifactId = 'cropper'
+                version = '1.0.3'
             }
         }
     }
