@@ -14,5 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Simple Image Cropper"
-include(":app")
 include(":cropper")
